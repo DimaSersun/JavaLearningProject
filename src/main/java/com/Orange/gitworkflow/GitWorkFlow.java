@@ -1,9 +1,10 @@
 package com.Orange.gitworkflow;
 
 public class GitWorkFlow {
-
     public static void main(String[] args) {
+
         //Steps
+
         String step1 = "Perform git stash - to store the uncommitted changes";
         String step2 = "Perform git checkout master - to move to the local master branch";
         String step3 = "Perform git fetch command - to fetch the origin branches";
@@ -37,6 +38,7 @@ public class GitWorkFlow {
         System.out.println(step13);
         System.out.println(step14);
         System.out.println(step15);
-        System.out.println();
     }
+
+
 }
